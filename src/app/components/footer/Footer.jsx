@@ -3,7 +3,7 @@ import styles from "./footer.module.css"
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <div className={styles.container}>MADE BY დათო გოგია</div>
   )
 }
 

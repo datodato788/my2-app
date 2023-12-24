@@ -6,3 +6,8 @@
     justify-content: space-between;
     align-items: center;
 }
+.Links { display: flex;
+    gap: 30px;
+    align-items: center;
+    
+}
