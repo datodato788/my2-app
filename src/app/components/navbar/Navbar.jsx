@@ -37,7 +37,7 @@ function Navbar() {
 
       
     <div className={styles.container}>
-      <Link href="/">
+      <Link href="/" className={styles.sss}> 
       HOME
       </Link>
       <div className={styles.Links}>
