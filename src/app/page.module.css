@@ -1,8 +1,26 @@
-.main {
+.txt{
+  font-size: 60px;
+  background: linear-gradient( to bottom, #c5c208, #9b6708);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent ;}
+  
+.container {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  gap: 50px;
+}
+
+.image {
+ 
+ flex: 1;
+ display: flex;
+ flex-direction: column;
+ gap: 50px;
+
+}
+.img {
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
 }
