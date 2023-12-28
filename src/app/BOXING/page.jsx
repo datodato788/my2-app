@@ -1,9 +1,9 @@
 import React from 'react'
 
-function BOXSING() {
+function BOXING() {
   return (
     <div>page</div>
   )
 }
 
-export default BOXSING
+export default BOXING

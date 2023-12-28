@@ -1,15 +1,12 @@
 .container {
     border: none;
-    background-image: linear-gradient(
-        to right,
-        rgb(220, 231, 130),
-        rgb(71, 204, 45) 50%,
-        rgb(71, 204, 45) 50%
-      );
+    color: rgb(151, 138, 36);
     display: flex;
     height: 100px;
     justify-content: space-between;
     align-items: center;
+   margin-left: 180px;
+   margin-right: 180px;
 }
 .Links { display: flex;
     gap: 30px;

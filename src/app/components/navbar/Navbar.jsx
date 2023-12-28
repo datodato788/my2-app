@@ -12,8 +12,8 @@ function Navbar() {
       },
       {
         id: 2,
-        title: "BOXSING",
-        url: "/BOXSING",
+        title: "Boxing",
+        url: "/BOXING",
       },
       {
         id: 3,
@@ -22,7 +22,7 @@ function Navbar() {
       },
       {
         id: 4,
-        title: "FOOTball",
+        title: "Football",
         url: "/FOOTball",
       },
       {
