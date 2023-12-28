@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from './page.module.css'
 
 function FOOTball() {
   return (
-    <div>MuayThai</div>
+    <div className={styles.container}>sdadsa</div>
   )
 }
 
