@@ -1,8 +1,8 @@
 import React from 'react'
-
+import styles from "./page.module.css"
 function MMA() {
   return (
-    <div>sdaadad</div>
+    <div className={styles.container}>sdaadad</div>
   )
 }
 

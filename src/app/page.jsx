@@ -1,26 +1,28 @@
+import styles from "./page.module.css";
 import Image from 'next/image'
-import styles from './page.module.css'
-import Sss from '../../public/sss.png'
-import Button from './components/button/Buttom'
+import Bbb from '../../public/Bbb.png'
 
-
-export default function Home() {
+export default function home() {
   return (
     <main className={styles.container}>
-    <div className={styles.Atxt}>
-      <h1 className={styles.txt}>
-        Best sport?<br/>
-       Best fighter?</h1>
-      <div className={styles.image}>
-     <Image 
-     src={Sss}
-     alt='Sss'
-     className={styles.img}
-     />
-  
-  
+      <   div className={styles.item}>
+        <h1 className={styles.title}>  Best sport?<br/>Best fighter?
+       
+        </h1>
+    
+        
+     
+      </div>                                  
+      <div className={styles.item}>
+        <Image
+          src={Bbb}
+          alt="Bbb"
+          className={styles.img}
+
+
+        />
       </div>
-      </div>
-  </main>
-  )
+    </main>
+
+  );
 }
