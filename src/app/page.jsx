@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 import Sss from '../../public/sss.png'
+import Button from './components/button/Buttom'
 
 
 export default function Home() {
@@ -9,13 +10,14 @@ export default function Home() {
     <div className={styles.Atxt}>
       <h1 className={styles.txt}>
         Best sport?<br/>
-       best fighter?</h1>
+       Best fighter?</h1>
       <div className={styles.image}>
      <Image 
      src={Sss}
      alt='Sss'
      className={styles.img}
      />
+  
   
       </div>
       </div>
