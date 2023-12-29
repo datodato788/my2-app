@@ -17,7 +17,7 @@ function FOOTball() {
         alt='NNN1'
         className={styles.top} />
       <p className={styles.p}>N1</p>
-      <Link href={"/"}><p>Cristiano Ronaldo</p></Link>
+      <Link href={"/FOOTball/N"}><p>Cristiano Ronaldo</p></Link>
     </div>
     <div>
       <Image
@@ -25,7 +25,7 @@ function FOOTball() {
         alt='NNN2'
         className={styles.top} />
       <p className={styles.p}>N2</p>
-      <Link href={"/"}><p className={styles.fix}>Lionel Messi</p></Link>
+      <Link href={"/FOOTball/NN"}><p className={styles.fix}>Lionel Messi</p></Link>
     </div>
     <div>
       <Image
@@ -33,7 +33,7 @@ function FOOTball() {
         alt='NNN3'
         className={styles.top} />
       <p className={styles.p}>N3</p>
-      <Link href={"/"}><p>Karim Benzema</p></Link>
+      <Link href={"/FOOTball/NNN"}><p>Karim Benzema</p></Link>
     </div>
     <div>
       <Image
@@ -41,14 +41,14 @@ function FOOTball() {
         alt='NNN4'
         className={styles.top} />
       <p className={styles.p}>N4</p>
-      <Link href={"/"}><p>Neymar</p></Link>
+      <Link href={"/FOOTball/NNNN"}><p>Neymar</p></Link>
     </div><div>
       <Image
         src={NNN5}
         alt='NNN5'
         className={styles.top} />
       <p className={styles.p}>N5</p>
-      <Link href={"/"}><p>Khvicha Kvaratskhelia</p></Link>
+      <Link href={"/FOOTball/NNNNN"}><p>Khvicha Kvaratskhelia</p></Link>
     </div>   
   </div>
   )
