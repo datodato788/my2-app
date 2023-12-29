@@ -18,7 +18,7 @@ function MMA() {
         alt='NN1'
         className={styles.top} />
       <p className={styles.p}>N1</p>
-      <Link href={"/"}><p>Khabib Nurmagomedov</p></Link>
+      <Link href={"/MMA/W"}><p>Khabib Nurmagomedov</p></Link>
     </div>
     <div>
       <Image
@@ -26,7 +26,7 @@ function MMA() {
         alt='NN2'
         className={styles.top} />
       <p className={styles.p}>N2</p>
-      <Link href={"/"}><p className={styles.fix}>Georges Saint-Pierre</p></Link>
+      <Link href={"/MMA/WW"}><p className={styles.fix}>Georges Saint-Pierre</p></Link>
     </div>
     <div>
       <Image
@@ -34,7 +34,7 @@ function MMA() {
         alt='NN3'
         className={styles.top} />
       <p className={styles.p}>N3</p>
-      <Link href={"/"}><p>Jon Jones</p></Link>
+      <Link href={"/MMA/WWW"}><p>Jon Jones</p></Link>
     </div>
     <div>
       <Image
@@ -42,14 +42,14 @@ function MMA() {
         alt='NN4'
         className={styles.top} />
       <p className={styles.p}>N4</p>
-      <Link href={"/"}><p>Anderson Silva</p></Link>
+      <Link href={"/MMA/WWWW"}><p>Anderson Silva</p></Link>
     </div><div>
       <Image
         src={NN5}
         alt='NN5'
         className={styles.top} />
       <p className={styles.p}>N5</p>
-      <Link href={"/"}><p>Fedor Emelianenko</p></Link>
+      <Link href={"/MMA/WWWWW"}><p>Fedor Emelianenko</p></Link>
     </div>   
   </div>
 
