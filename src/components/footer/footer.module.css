@@ -4,16 +4,18 @@
     
     height: 50px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 14px;
-}
-.socialNetworks{
-    display: flex;
+    
     align-items: center;
     gap: 20px;
-}
-.icon{
-    cursor: pointer;
     
 }
+
+.v{ display: flex;
+    margin-bottom: flex;
+    color: rgb(208, 226, 39);
+    cursor: pointer;
+    font-size: 20px;
+   
+   
+}
+

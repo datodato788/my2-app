@@ -27,18 +27,6 @@ function Navbar() {
         title: "Football",
         url: "/FOOTball",
       },
-      {
-        id:5,
-        title: "Support",
-        url: "/SUPPORT",
-
-      },
-      {
-        id: 6,
-        title: "Info",
-        url: "/info",
-      },
-    
      
     ];
 
