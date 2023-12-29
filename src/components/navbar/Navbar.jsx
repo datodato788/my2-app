@@ -1,8 +1,10 @@
 import React from 'react'
 import styles from "./navbar.module.css"
 import Link from 'next/link'
+import ColorModeToggle from '../colorModeToggle/ColorModeToggle';
 
 function Navbar() {
+  
   
     const link = [
       {
@@ -48,9 +50,10 @@ function Navbar() {
       HOME
       </Link>
       <div className={styles.Links}>
+      
        {link.map((link) => (
           <Link href={link.url}>{link.title}</Link>
-        ))}
+        ))}<ColorModeToggle/>
     
 
     </div>
