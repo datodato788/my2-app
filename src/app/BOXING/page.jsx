@@ -16,7 +16,7 @@ function BOXING() {
           alt='N1'
           className={styles.top} />
         <p className={styles.p}>N1</p>
-        <Link href={"/"}><p>Sugar Ray Robinson</p></Link>
+        <Link href={"/BOXING/S"}><p>Sugar Ray Robinson</p></Link>
       </div>
       <div>
         <Image
@@ -24,7 +24,7 @@ function BOXING() {
           alt='N2'
           className={styles.top} />
         <p className={styles.p}>N2</p>
-        <Link href={"/"}><p className={styles.fix}>Muhammad Ali</p></Link>
+        <Link href={"/BOXING/SS"}><p className={styles.fix}>Muhammad Ali</p></Link>
       </div>
       <div>
         <Image
@@ -32,7 +32,7 @@ function BOXING() {
           alt='N3'
           className={styles.top} />
         <p className={styles.p}>N3</p>
-        <Link href={"/"}><p>Mike Tyson</p></Link>
+        <Link href={"/BOXING/SSS"}><p>Mike Tyson</p></Link>
       </div>
       <div>
         <Image
@@ -40,14 +40,14 @@ function BOXING() {
           alt='N4'
           className={styles.top} />
         <p className={styles.p}>N4</p>
-        <Link href={"/"}><p>Floyd Mayweather Jr</p></Link>
+        <Link href={"/BOXING/SSSS"}><p>Floyd Mayweather Jr</p></Link>
       </div><div>
         <Image
           src={N5}
           alt='N5'
           className={styles.top} />
         <p className={styles.p}>N5</p>
-        <Link href={"/"}><p>Deontay Wilder</p></Link>
+        <Link href={"/BOXING/SSSSS"}><p>Deontay Wilder</p></Link>
       </div>
     </div>
 

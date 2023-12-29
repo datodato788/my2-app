@@ -1,10 +1,11 @@
 import React from 'react'
 import styles from "./page.module.css"
 import Image from 'next/image'
+import Link from 'next/link'
 import NN1 from '../../../public/NN1.jpg'
 import NN2 from '../../../public/NN2.jpg'
 import NN3 from '../../../public/NN3.jpg'
-import NN4 from '../../../public/NN4.jpg'
+import NN4 from '../../../public/NN4.png'
 import NN5 from '../../../public/NN5.jpg'
 
 function MMA() {
@@ -17,7 +18,7 @@ function MMA() {
         alt='NN1'
         className={styles.top} />
       <p className={styles.p}>N1</p>
-      <Link href={"/"}><p></p></Link>
+      <Link href={"/"}><p>Khabib Nurmagomedov</p></Link>
     </div>
     <div>
       <Image
@@ -25,7 +26,7 @@ function MMA() {
         alt='NN2'
         className={styles.top} />
       <p className={styles.p}>N2</p>
-      <Link href={"/"}><p className={styles.fix}></p></Link>
+      <Link href={"/"}><p className={styles.fix}>Georges Saint-Pierre</p></Link>
     </div>
     <div>
       <Image
@@ -33,7 +34,7 @@ function MMA() {
         alt='NN3'
         className={styles.top} />
       <p className={styles.p}>N3</p>
-      <Link href={"/"}><p>Mike Tyson</p></Link>
+      <Link href={"/"}><p>Jon Jones</p></Link>
     </div>
     <div>
       <Image
@@ -41,14 +42,14 @@ function MMA() {
         alt='NN4'
         className={styles.top} />
       <p className={styles.p}>N4</p>
-      <Link href={"/"}><p>Floyd Mayweather Jr</p></Link>
+      <Link href={"/"}><p>Anderson Silva</p></Link>
     </div><div>
       <Image
         src={NN5}
         alt='NN5'
         className={styles.top} />
       <p className={styles.p}>N5</p>
-      <Link href={"/"}><p>Deontay Wilder</p></Link>
+      <Link href={"/"}><p>Fedor Emelianenko</p></Link>
     </div>   
   </div>
 
