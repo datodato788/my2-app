@@ -1,6 +1,8 @@
 import styles from "./page.module.css";
 import Image from 'next/image'
-import Bbb from '../../public/Bbb.png'
+import mike from '../../public/mike.png'
+import Button from "./components/button/Buttom";
+
 
 export default function home() {
   return (
@@ -8,19 +10,21 @@ export default function home() {
       <   div className={styles.item}>
         <h1 className={styles.title}>  Best sport?<br/>Best fighter?
        
-        </h1>
+        </h1> <Button title={"let's start"} url={"/BOXING"}  />
     
         
      
       </div>                                  
       <div className={styles.item}>
         <Image
-          src={Bbb}
-          alt="Bbb"
+          src={mike}
+          alt="mike"
           className={styles.img}
+          
 
 
         />
+       
       </div>
     </main>
 
