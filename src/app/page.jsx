@@ -9,7 +9,7 @@ export default function home() {
   return (
     <main className={styles.container}>
       <   div className={styles.item}>
-        <h1 className={styles.title}>  Best sport?<br/>Best fighter?
+        <h1 className={styles.title}>  Best sport?<br/>Best Athlete?
        
         </h1> <Button title={"let's start"} url={"/BOXING"}  />
     
