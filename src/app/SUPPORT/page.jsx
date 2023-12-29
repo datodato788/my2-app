@@ -1,8 +1,9 @@
 import React from 'react'
 import styles from './page.module.css'
 import Image from 'next/image'
-import Button from '../components/button/Buttom'
+
 import support from '../../../public/210325-03-24-7-Support-HD-1.gif'
+import Button from '@/components/button/Buttom'
 function SUPPORT() {
     return (
         <div><div>

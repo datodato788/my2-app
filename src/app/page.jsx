@@ -1,7 +1,8 @@
 import styles from "./page.module.css";
 import Image from 'next/image'
 import mike from '../../public/mike.png'
-import Button from "./components/button/Buttom";
+import Button from "@/components/button/Buttom";
+
 
 
 export default function home() {

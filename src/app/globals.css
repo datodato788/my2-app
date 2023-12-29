@@ -21,6 +21,20 @@ a {
   body {
     max-width: 100vw;
     overflow-x: hidden;
-    background-image: url(../../public/images.jpg);
+   
   
+  }.dark {
+    background-color: #111;
+    color: #bbb;
+
+  }
+  .DarkAndYellow {
+    background: linear-gradient(
+      to right,
+      rgb(77, 85, 33),
+      rgb(11, 34, 43),
+      rgb(61, 55, 25)
+    );
+    color: white;
+
   }
