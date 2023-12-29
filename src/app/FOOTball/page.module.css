@@ -1,4 +1,19 @@
 .container{
-  
+    
+    display: flex;
+    align-items: center;
+    
+    margin-bottom: flex;
     color: rgb(223, 233, 132);
+}
+.top{
+    width: 70%;
+  height: 400px;
+  object-fit: contain;
+
+}
+.p{
+  
+  font-size: 20px;
+   
 }
