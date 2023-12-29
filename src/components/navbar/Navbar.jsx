@@ -35,7 +35,7 @@ function Navbar() {
       
     <div className={styles.container}>
       <Link href="/" className={styles.sss}> 
-      HOME
+      List of The Best Athletes
       </Link>
       <div className={styles.Links}>
       
