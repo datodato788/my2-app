@@ -7,7 +7,7 @@ function Navbar() {
     const link = [
       {
         id: 1,
-        title: "home",
+        title: "Home",
         url: "/",
       },
       {
@@ -27,8 +27,14 @@ function Navbar() {
       },
       {
         id: 5,
-        title: "info",
+        title: "Info",
         url: "/info",
+      },
+      {
+        id:6,
+        title: "Support",
+        url: "/SUPPORT",
+
       },
      
     ];
