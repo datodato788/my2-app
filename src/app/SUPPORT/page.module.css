@@ -1,0 +1,39 @@
+.content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.imgContainer {
+    flex: 1;
+    height: 500px;
+    position: relative;
+}
+.image {
+      object-fit: contain;
+     
+}
+.title {
+    color: yellow;
+    font-size: 60px;
+    margin: 100px;
+    text-align: center;
+}
+.from {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input,
+.textArea {
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #d9ff00;
+    border: 3px solid #fbff00;
+    font-size: 20px;
+    font-weight: bold;
+}

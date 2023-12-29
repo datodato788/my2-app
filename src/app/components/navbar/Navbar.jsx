@@ -26,16 +26,17 @@ function Navbar() {
         url: "/FOOTball",
       },
       {
-        id: 5,
-        title: "Info",
-        url: "/info",
-      },
-      {
-        id:6,
+        id:5,
         title: "Support",
         url: "/SUPPORT",
 
       },
+      {
+        id: 6,
+        title: "Info",
+        url: "/info",
+      },
+    
      
     ];
 
