@@ -8,10 +8,10 @@
         rgb(255, 72, 0)
     );
     border: none;
-    border-radius: 5px;
+    border-radius: 80px;
     width: max-content;
     color: rgb(0, 0, 0);
-    font-size: 20px;
-    
+    font-size: 25px;
+    font-family: Georgia, serif;
     margin-right: 30px;
 }

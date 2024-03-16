@@ -11,7 +11,7 @@ export default function home() {
       <   div className={styles.item}>
         <h1 className={styles.title}>  Best sport?<br/>Best Athlete?
        
-        </h1> <Button title={"let's start"} url={"/BOXING"}  />
+        </h1> <Button title={"let's start"} url={"/BOXING"} className={styles.size} />
     
         
      
