@@ -11,43 +11,43 @@ function BOXING() {
   return (
     <div className={styles.container}>
       <div>
-        <Image
+      <Link href={"/BOXING/S"}> <Image
           src={N1}
           alt='N1'
           className={styles.top} />
         <p className={styles.p}>N1</p>
-        <Link href={"/BOXING/S"}><p>Sugar Ray Robinson</p></Link>
+        <p>Sugar Ray Robinson</p></Link>
       </div>
       <div>
-        <Image
+      <Link href={"/BOXING/SS"}><Image
           src={N2}
           alt='N2'
           className={styles.top} />
         <p className={styles.p}>N2</p>
-        <Link href={"/BOXING/SS"}><p className={styles.fix}>Muhammad Ali</p></Link>
+        <p className={styles.fix}>Muhammad Ali</p></Link>
       </div>
       <div>
-        <Image
+      <Link href={"/BOXING/SSS"}><Image
           src={N3}
           alt='N3'
           className={styles.top} />
         <p className={styles.p}>N3</p>
-        <Link href={"/BOXING/SSS"}><p>Mike Tyson</p></Link>
+        <p>Mike Tyson</p></Link>
       </div>
       <div>
-        <Image
+      <Link href={"/BOXING/SSSS"}><Image
           src={N4}
           alt='N4'
           className={styles.top} />
         <p className={styles.p}>N4</p>
-        <Link href={"/BOXING/SSSS"}><p>Floyd Mayweather Jr</p></Link>
+        <p>Floyd Mayweather Jr</p></Link>
       </div><div>
-        <Image
+      <Link href={"/BOXING/SSSSS"}>  <Image
           src={N5}
           alt='N5'
           className={styles.top} />
         <p className={styles.p}>N5</p>
-        <Link href={"/BOXING/SSSSS"}><p>Deontay Wilder</p></Link>
+      <p>Deontay Wilder</p></Link>
       </div>
     </div>
 
